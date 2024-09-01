@@ -13,6 +13,17 @@
 		0F668C612C83485100B784AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F668C602C83485100B784AE /* Preview Assets.xcassets */; };
 		0F668C632C83485100B784AE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F668C622C83485100B784AE /* Persistence.swift */; };
 		0F668C662C83485100B784AE /* DNSManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F668C642C83485100B784AE /* DNSManager.xcdatamodeld */; };
+		0F668C702C8348B200B784AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F668C6E2C8348B200B784AE /* AppDelegate.swift */; };
+		0F668C712C8348B200B784AE /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F668C6F2C8348B200B784AE /* PopoverView.swift */; };
+		0F668C722C8348B200B784AE /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F668C6D2C8348B100B784AE /* StatusBarController.swift */; };
+		0F668C7F2C8351B100B784AE /* Bash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F668C7D2C8351B000B784AE /* Bash.swift */; };
+		0F668C802C8351B100B784AE /* DNSServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F668C7E2C8351B100B784AE /* DNSServer.swift */; };
+		0F668C832C83524F00B784AE /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F668C822C83524F00B784AE /* NetworkError.swift */; };
+		0F9D188F2C8484C30069ABEF /* NetworkDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9D188E2C8484C30069ABEF /* NetworkDevice.swift */; };
+		0F9D18912C8485990069ABEF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9D18902C8485990069ABEF /* NetworkManager.swift */; };
+		0F9D18932C8485B40069ABEF /* DNSItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9D18922C8485B40069ABEF /* DNSItem.swift */; };
+		0F9D18962C84B7910069ABEF /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9D18952C84B7910069ABEF /* SettingsViewModel.swift */; };
+		0F9D18982C84B7A90069ABEF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9D18972C84B7A90069ABEF /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,18 @@
 		0F668C622C83485100B784AE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		0F668C652C83485100B784AE /* DNSManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DNSManager.xcdatamodel; sourceTree = "<group>"; };
 		0F668C672C83485100B784AE /* DNSManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DNSManager.entitlements; sourceTree = "<group>"; };
+		0F668C6D2C8348B100B784AE /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		0F668C6E2C8348B200B784AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F668C6F2C8348B200B784AE /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		0F668C7D2C8351B000B784AE /* Bash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bash.swift; sourceTree = "<group>"; };
+		0F668C7E2C8351B100B784AE /* DNSServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DNSServer.swift; sourceTree = "<group>"; };
+		0F668C822C83524F00B784AE /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		0F9D188E2C8484C30069ABEF /* NetworkDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDevice.swift; sourceTree = "<group>"; };
+		0F9D18902C8485990069ABEF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0F9D18922C8485B40069ABEF /* DNSItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSItem.swift; sourceTree = "<group>"; };
+		0F9D18942C84B50A0069ABEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0F9D18952C84B7910069ABEF /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		0F9D18972C84B7A90069ABEF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +79,17 @@
 		0F668C582C83484F00B784AE /* DNSManager */ = {
 			isa = PBXGroup;
 			children = (
+				0F9D18942C84B50A0069ABEF /* Info.plist */,
+				0F668C812C8351B600B784AE /* Networking */,
+				0F668C732C8349EA00B784AE /* CoreData */,
+				0F668C782C834B6700B784AE /* Menubar */,
 				0F668C592C83484F00B784AE /* DNSManagerApp.swift */,
+				0F668C822C83524F00B784AE /* NetworkError.swift */,
+				0F9D18992C84B7AE0069ABEF /* Settings */,
 				0F668C5B2C83484F00B784AE /* ContentView.swift */,
+				0F668C6F2C8348B200B784AE /* PopoverView.swift */,
 				0F668C5D2C83485100B784AE /* Assets.xcassets */,
-				0F668C622C83485100B784AE /* Persistence.swift */,
 				0F668C672C83485100B784AE /* DNSManager.entitlements */,
-				0F668C642C83485100B784AE /* DNSManager.xcdatamodeld */,
 				0F668C5F2C83485100B784AE /* Preview Content */,
 			);
 			path = DNSManager;
@@ -73,6 +101,45 @@
 				0F668C602C83485100B784AE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0F668C732C8349EA00B784AE /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				0F668C642C83485100B784AE /* DNSManager.xcdatamodeld */,
+				0F668C622C83485100B784AE /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		0F668C782C834B6700B784AE /* Menubar */ = {
+			isa = PBXGroup;
+			children = (
+				0F668C6E2C8348B200B784AE /* AppDelegate.swift */,
+				0F668C6D2C8348B100B784AE /* StatusBarController.swift */,
+			);
+			path = Menubar;
+			sourceTree = "<group>";
+		};
+		0F668C812C8351B600B784AE /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0F668C7D2C8351B000B784AE /* Bash.swift */,
+				0F668C7E2C8351B100B784AE /* DNSServer.swift */,
+				0F9D188E2C8484C30069ABEF /* NetworkDevice.swift */,
+				0F9D18902C8485990069ABEF /* NetworkManager.swift */,
+				0F9D18922C8485B40069ABEF /* DNSItem.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0F9D18992C84B7AE0069ABEF /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				0F9D18952C84B7910069ABEF /* SettingsViewModel.swift */,
+				0F9D18972C84B7A90069ABEF /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,10 +212,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F9D18982C84B7A90069ABEF /* SettingsView.swift in Sources */,
+				0F668C712C8348B200B784AE /* PopoverView.swift in Sources */,
+				0F668C722C8348B200B784AE /* StatusBarController.swift in Sources */,
+				0F668C802C8351B100B784AE /* DNSServer.swift in Sources */,
 				0F668C632C83485100B784AE /* Persistence.swift in Sources */,
 				0F668C5C2C83484F00B784AE /* ContentView.swift in Sources */,
 				0F668C5A2C83484F00B784AE /* DNSManagerApp.swift in Sources */,
+				0F668C7F2C8351B100B784AE /* Bash.swift in Sources */,
+				0F9D18962C84B7910069ABEF /* SettingsViewModel.swift in Sources */,
+				0F668C702C8348B200B784AE /* AppDelegate.swift in Sources */,
+				0F9D188F2C8484C30069ABEF /* NetworkDevice.swift in Sources */,
 				0F668C662C83485100B784AE /* DNSManager.xcdatamodeld in Sources */,
+				0F9D18932C8485B40069ABEF /* DNSItem.swift in Sources */,
+				0F668C832C83524F00B784AE /* NetworkError.swift in Sources */,
+				0F9D18912C8485990069ABEF /* NetworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +356,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
 				CODE_SIGN_ENTITLEMENTS = DNSManager/DNSManager.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -287,6 +366,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DNSManager/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ALLOW_ENTITLEMENTS_MODIFICATION = YES;
 				CODE_SIGN_ENTITLEMENTS = DNSManager/DNSManager.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -314,6 +396,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DNSManager/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
