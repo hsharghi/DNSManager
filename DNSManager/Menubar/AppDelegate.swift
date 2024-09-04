@@ -18,6 +18,14 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         
         Self.popover.behavior = .transient
         statusBar = StatusBarController(Self.popover)
+        
+        
+        if( NSApp.windows.count > 0 ) {
+            let window : NSWindow = NSApp.windows[0]
+            let title = window.title
+            print(title)
+            window.close()
+        }
     }
     
 }
