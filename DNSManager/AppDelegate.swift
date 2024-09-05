@@ -13,9 +13,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var statusBar: StatusBarController?
     
     func applicationDidFinishLaunching(_ notification: Notification) {
-        Self.popover.contentViewController = NSHostingController(rootView: PopoverView()
-            .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext))
-        
+        Self.popover.contentViewController = NSHostingController(rootView: PopoverView())
         Self.popover.behavior = .transient
         statusBar = StatusBarController(Self.popover)
         

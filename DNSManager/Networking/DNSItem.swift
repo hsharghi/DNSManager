@@ -14,3 +14,7 @@ struct DNSItem {
     var dns2: String
     var name: String
 }
+
+extension DNSItem: Hashable {
+    
+}

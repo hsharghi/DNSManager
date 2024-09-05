@@ -8,6 +8,7 @@
 import AppKit
 
 class StatusBarController {
+
     private var statusBar: NSStatusBar
     private(set) var statusItem: NSStatusItem
     private(set) var popover: NSPopover
@@ -30,6 +31,13 @@ class StatusBarController {
             popover.performClose(nil)
         } else {
             popover.show(relativeTo: statusItem.button!.bounds, of: statusItem.button!, preferredEdge: .maxY)
+            for (index, window) in NSApplication.shared.windows.enumerated() {
+                if index == 3 {
+                    //
+                }
+                
+                print("\(index) - \(window.title)")
+            }
         }
     }
 }

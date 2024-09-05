@@ -14,7 +14,6 @@ struct DNSManagerApp: App {
 
     var body: some Scene {
         WindowGroup {
-            
         }
     }
 }

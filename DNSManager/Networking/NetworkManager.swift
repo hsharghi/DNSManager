@@ -23,7 +23,7 @@ class NetworkManager {
     
     
     var status: DNSItem {
-        getVPNStatus()
+        getActiveDNS()
     }
     
     func getDevices() throws -> [NetworkDevice] {
@@ -93,7 +93,7 @@ class NetworkManager {
         
     }
     
-    func getVPNStatus() -> DNSItem {
+    func getActiveDNS() -> DNSItem {
         if let dnsIps = try? bash.run("networksetup", arguments: ["-getdnsservers", "Wi-Fi"]) {
             let dnsItem = DNSServer.shared.findItem(with: dnsIps)
             return dnsItem
